@@ -1,0 +1,15 @@
+Also Called Glue.
+
+This generates step definitions bey executing the feature file in console
+
+Hence we create the steps and add in the definitions.
+
+Step Difination then calls the Page Object
+
+For Page Object we need UI Store
+
+Utility is called
+
+Reusable Components are called
+
+Start Execution by Runner

@@ -1,0 +1,32 @@
+#Author: shreyasgupta2@mindtree.com
+#
+#Tags are used in a feature file to allocate the featurs in groups.
+# Example @SmokeTest is givem, cucumber will only run cases with this particular tag.
+#
+#Feature that is about to be tested in Gherkin Format.
+Feature: Feature A
+
+#Steps to be followed in order to reach the target
+Background:
+Given I am here
+When I go here
+Then I reach the target
+
+#The Functionailty that is under Test
+Scenario:
+Given I am given a situation
+When I do something
+And something
+Then this should happen
+And this should happen
+
+#When Scenario has to be performed with Different Data Sets
+Scenario Outline: Outline A
+Given I want to write a step with <name>
+When I check for the <value> in step
+Then I verify the <status> in step
+
+Examples:
+| name  | value | status |
+| name1 |   1   |success |
+| name2 |   2   |  fail  |
