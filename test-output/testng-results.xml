@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="35661" started-at="2021-09-06T03:45:22Z" finished-at="2021-09-06T03:45:58Z">
+  <suite name="Suite" duration-ms="32470" started-at="2021-09-09T07:16:33Z" finished-at="2021-09-09T07:17:05Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mindtree.BDD_Cucumber.Runner.TestRunner@49c386c8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestRunner@78e117e3]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="35661" started-at="2021-09-06T03:45:22Z" finished-at="2021-09-06T03:45:58Z">
-      <class name="com.mindtree.BDD_Cucumber.Runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mindtree.BDD_Cucumber.Runner.TestRunner@49c386c8]" name="setUpClass" is-config="true" duration-ms="466" started-at="2021-09-06T09:15:22Z" finished-at="2021-09-06T09:15:23Z">
+    <test name="Test" duration-ms="32470" started-at="2021-09-09T07:16:33Z" finished-at="2021-09-09T07:17:05Z">
+      <class name="com.mindtree.Runner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.mindtree.Runner.TestRunner@78e117e3]" name="setUpClass" is-config="true" duration-ms="270" started-at="2021-09-09T12:46:33Z" finished-at="2021-09-09T12:46:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mindtree.BDD_Cucumber.Runner.TestRunner@49c386c8]" name="feature" duration-ms="35047" started-at="2021-09-06T09:15:23Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-06T09:15:58Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.mindtree.Runner.TestRunner@78e117e3]" name="feature" duration-ms="32069" started-at="2021-09-09T12:46:33Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-09-09T12:47:05Z">
           <params>
             <param index="0">
               <value>
@@ -25,11 +25,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mindtree.BDD_Cucumber.Runner.TestRunner@49c386c8]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2021-09-06T09:15:58Z" finished-at="2021-09-06T09:15:58Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.mindtree.Runner.TestRunner@78e117e3]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2021-09-09T12:47:05Z" finished-at="2021-09-09T12:47:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- com.mindtree.BDD_Cucumber.Runner.TestRunner -->
+      </class> <!-- com.mindtree.Runner.TestRunner -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

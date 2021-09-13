@@ -3,7 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.mindtree.BDD_Cucumber.Runner.TestRunner"/>
+      <class name="com.mindtree.Runner.TestRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Failed suite [Suite] -->

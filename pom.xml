@@ -64,6 +64,12 @@
     	<artifactId>selenium-java</artifactId>
     	<version>3.141.59</version>
 	</dependency>
+		<!-- https://www.mstsolutions.com/technical/extent-report/ -->
+	<dependency> 
+    	<groupId>com.aventstack</groupId> 
+    	<artifactId>extentreports</artifactId> 
+    	<version>3.1.5</version> 
+	</dependency>  
   </dependencies>
 
   <build>
@@ -86,7 +92,7 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
-         <configuration>
+    <configuration>
   		<suiteXmlFiles>
   		<suiteXmlFile>testng.xml</suiteXmlFile>
   		</suiteXmlFiles>

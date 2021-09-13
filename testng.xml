@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   	<classes>
-  	<class name="com.mindtree.BDD_Cucumber.Runner.TestRunner"/>
+  	<class name="com.mindtree.Runner.TestRunner"/>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
